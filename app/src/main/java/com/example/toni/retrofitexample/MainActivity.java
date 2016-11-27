@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<HackerNews> call, Response<HackerNews> response) {
                 if(response.isSuccessful()) {
-                    laId = response.body().getId();
-                    textView.setText(laId.toString());
+                    laId = response.body().getReadiness().size(); // Resultados
+                    textView.setText(response.body().getReadiness().get(1).getScore().toString());
                 }
 
             }

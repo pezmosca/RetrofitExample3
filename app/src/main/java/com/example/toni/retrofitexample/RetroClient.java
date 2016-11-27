@@ -12,7 +12,7 @@ public class RetroClient {
     /********
      * URLS
      *******/
-    private static final String ROOT_URL = "https://hacker-news.firebaseio.com/v0/";
+    private static final String ROOT_URL = "http://pezmosca.net23.net/";
 
     /**
      * Get Retrofit Instance

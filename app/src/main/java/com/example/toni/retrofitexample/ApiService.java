@@ -13,6 +13,6 @@ public interface ApiService {
     Retrofit get annotation with our URL
     And our method that will return us the List of ContactList
     */
-    @GET("item/8863.json")
+    @GET("readiness.json")
     Call<HackerNews> getMyJSON();
 }
